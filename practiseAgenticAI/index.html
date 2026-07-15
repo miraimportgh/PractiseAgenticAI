@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Practise Agentic AI — Landing</title>
+  <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <a class="brand" href="/" aria-label="Homepage">Agentic AI</a>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+      <a class="cta" href="#buy">Buy Now</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-inner">
+        <h1>Build smarter workflows with Agentic AI</h1>
+        <p>Autonomous agents that help you prototype, test, and ship faster.</p>
+        <a id="buy" class="btn btn-primary" href="#pricing">Buy Now</a>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <h2 class="section-title">Key Features</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Autonomous Agents</h3>
+          <p>Deploy agents that can perform tasks end-to-end with minimal supervision.</p>
+        </article>
+
+        <article class="card">
+          <h3>Integrations</h3>
+          <p>Connect to APIs, databases, and tools to extend capabilities across your stack.</p>
+        </article>
+
+        <article class="card">
+          <h3>Monitoring & Insights</h3>
+          <p>Track agent performance and get actionable insights to improve flows.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+      <h2 class="section-title">Pricing</h2>
+      <p>Simple, transparent pricing — starting at $9/month.</p>
+    </section>
+
+    <section id="about" class="about">
+      <h2 class="section-title">About</h2>
+      <p>Practise Agentic AI is a demo landing page for showcasing autonomous workflows and integrations.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Agentic AI — All rights reserved.</p>
+  </footer>
+
+  <script>
+    // small script to keep footer year current
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
